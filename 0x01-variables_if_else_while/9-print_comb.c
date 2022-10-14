@@ -14,7 +14,7 @@ int main(void)
 		if (number != '9')
 		{
 			putchar(',');
-			puchar(' ');
+			putchar(' ');
 		}
 		number++;
 	}
