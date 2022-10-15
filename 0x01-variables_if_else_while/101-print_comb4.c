@@ -16,7 +16,7 @@ int main(void)
 			for (ones = '0'; ones <= '9'; ones++)/* prints ones digit*/
 			{
 				if (!((ones == tens) || hundreds == tens) ||
-					       	(tens > ones) || (hundreds > tens))/*eliminats repeatition*/
+						(tens > ones) || (hundreds > tens))/*eliminats repeatition*/
 				{
 					putchar(hundreds);
 					putchar(tens);
